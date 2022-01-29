@@ -1,6 +1,7 @@
 
 
 import { Outlet,Link } from 'react-router-dom'
+import Css from '../Css/home.css'
 
 export default function Site()
 {return(
@@ -15,11 +16,10 @@ export default function Site()
     
     
         <Outlet/>
-        <footer>
-        
+        <hr className=' border-5 border-top border-dark' />
+        <footer >
         <p className="text-start">Devloped by-Arnav Techosys</p>
-       
-        <p className="text-end"> Powered By-ATJIONPVD LTD</p></footer>
+        <p className="text-end "> Powered By-ATJIONPVD LTD</p></footer>
     </div>
 
 )
