@@ -33,15 +33,12 @@ export default function Home()
     <input type="email" className="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"/>
     
   </div>
-  <div className="mb-3 div2">
+  <div className="mb-3  div2">
     <label for="exampleInputPassword1" className="form-label">Enter Your EmailID</label>
     <input type="password" className="form-control" id="exampleInputPassword1"/>
   </div>
-  <div className="mb-3 form-check div2">
-    <input type="checkbox" className="form-check-input" id="exampleCheck1"/>
-    <label className="form-check-label" for="exampleCheck1">Check me out</label>
-  </div>
-  <div className="d-grid gap-2 col-6 mx-auto mb-3 div2">
+  
+  <div className="d-grid gap-2 col-6 mx-auto mt-5 mb-3 div2">
   <button className="btn div" type="button">Signin or Signup</button>
   
 </div>
