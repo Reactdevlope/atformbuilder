@@ -2,8 +2,9 @@ import react from "react"
 import '../Css/home.css'
 import pic from '../pic/logo.png'
 import '../Css/first_login.css'
+import User_dash1 from '../site/User-dash1'
 
-export default function First_login()
+export default function User_dash1()
 {
     return(
     <div>

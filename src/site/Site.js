@@ -12,7 +12,7 @@ export default function Site()
   </div>
 </nav>
         <Outlet/>
-        
+      
         <footer >
           <div className='container'>
             <div className='row'>
