@@ -1,8 +1,8 @@
 import react from "react"
+import '../Css/home.css'
 import pic from '../pic/logo.png'
 import '../Css/first_login.css'
-
-export default function Create_form()
+export default function User_dash_first_time()
 {
     return(
     <div>
@@ -19,13 +19,23 @@ export default function Create_form()
         <li className="nav-item">
           <a className="nav-link active" aria-current="page" href="#">Welcome[user-name]</a>
         </li>
-        <li className="nav-item pf">
-          <a className="nav-link active" aria-current="page" href="#">LogOut</a>
+        <li className="nav-item ">
+          <a className="nav-link active pf" aria-current="page" href="#">LogOut</a>
         </li>
       </ul>
     </div>
   </div>
 </nav>
+            </div>
+            </div>
+            </div>
+            <div className='container'> 
+        <div className='row'>
+            <div className='col-4'>
+            
+            </div>
+            <div className='col-8'>
+            <p className="text-start fs-5  p">WELCOME TO ATFORMS FORM BUILDER</p>
             </div>
             </div>
             </div>
@@ -52,42 +62,20 @@ export default function Create_form()
                     </li>
                     <li>
                         <a href="#submenu3" data-bs-toggle="collapse" className="nav-link px-0 align-middle a ">
-                            <i className="fs-4 bi-grid"></i> <span className="ms-1 d-none d-sm-inline ">LogOut</span> </a>       
+                            <i className="fs-4 bi-grid"></i> <span className="ms-1 d-none d-sm-inline">LogOut</span> </a>       
                     </li>   
                 </ul>
                 <hr/>  
             </div>
     
             </div>
+            <div className='col-6'>
+            <p className="text-start ">Welcome user name, you can create forms and share links to collect user data</p>
             
-            <div className='col-6 rounded'>
-            <div className=" text-center div  mt-3 ">
-            <label for="exampleInputEmail1" className="form-label div   text-white">CREATE FROM</label>  
-               </div>
-               <form >
-               <div className="mb-3  text-white div2 ">
-    <label for="exampleInputEmail1" className="form-label justify-content-centre">Field Tittle</label>
-    <input type="email" className="form-control " id="exampleInputEmail1" aria-describedby="emailHelp"/>
-  
-  <div className="form-outline mb-4">
-  <label className="form-label" for="form4Example2">Field Description</label>
-    <textarea className="form-control" id="form4Example3" rows="4"></textarea>
-   
-  </div>
-<hr className=' border-5 border-top border-secondary' />
-<div className="d-grid  col-8 mx-auto ">
-  <button className="btn div mb-3" type="button">Save and create forms</button>
-</div>
-</div> 
-        <div className='row'>
-            <div className='col-2'></div>
-            </div>
-</form>
-
-          </div>
+            <p className="text-start pf2"> Click here to Create your first form</p>
             </div>
         </div> 
         </div>
-        
+        </div>
     )
 }

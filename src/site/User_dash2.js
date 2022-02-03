@@ -2,7 +2,7 @@ import react from "react"
 import pic from '../pic/logo.png'
 import '../Css/first_login.css'
 
-export default function Form_pre()
+export default function User_dash2()
 {
     return(
     <div>
@@ -68,6 +68,41 @@ export default function Form_pre()
                <form >
                <div className="mb-3   text-white div2 ">
     <label for="exampleInputEmail1" className="form-label">Field Tittle</label>
+    <input type="email" className="form-control " id="exampleInputEmail1" aria-describedby="emailHelp"/>
+    <div className="d-grid col-12 justify-content-end">
+  <button className="btn btn-secondary btn-rounded z-depth-1a text-white" type="button">Optional</button>
+</div>
+  <div>
+  <div className="form-check form-check-inline text-white ">
+  <input className="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1"/>
+  <label className="form-check-label" for="inlineRadio1">Short input Text</label>
+</div>
+<div className="form-check form-check-inline text-white  ">
+  <input className="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2"/>
+  <label className="form-check-label" for="inlineRadio2">CheckBox</label>
+</div>
+</div><div>
+<div className="form-check form-check-inline text-white ">
+  <input className="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1"/>
+  <label className="form-check-label" for="inlineRadio1">Radio Button</label>
+</div>
+<div className="form-check form-check-inline text-white ">
+  <input className="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2"/>
+  <label className="form-check-label" for="inlineRadio2">File upload</label>
+</div></div><div>
+<div className="form-check form-check-inline text-white ">
+  <input className="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1"/>
+  <label className="form-check-label" for="inlineRadio1">Date</label>
+</div>
+<div className="form-check form-check-inline text-white ">
+  <input className="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2"/>
+  <label className="form-check-label" for="inlineRadio2">Long Input Text</label>
+</div></div>
+<div className="form-check form-check-inline text-white ">
+  <input className="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1"/>
+  <label className="form-check-label" for="inlineRadio1">Drop Down Menu</label>
+</div>
+<label for="exampleInputEmail1" className="form-label">Field Tittle</label>
     <input type="email" className="form-control " id="exampleInputEmail1" aria-describedby="emailHelp"/>
     <div className="d-grid col-12 justify-content-end">
   <button className="btn btn-secondary btn-rounded z-depth-1a text-white" type="button">Optional</button>

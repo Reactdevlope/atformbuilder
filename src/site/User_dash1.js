@@ -1,8 +1,6 @@
 import react from "react"
-import '../Css/home.css'
 import pic from '../pic/logo.png'
 import '../Css/first_login.css'
-import User_dash1 from '../site/User-dash1'
 
 export default function User_dash1()
 {
@@ -31,16 +29,6 @@ export default function User_dash1()
             </div>
             </div>
             </div>
-            <div className='container'> 
-        <div className='row'>
-            <div className='col-4'>
-            
-            </div>
-            <div className='col-8'>
-            <p className="text-start fs-5  p">WELCOME TO ATFORMS FORM BUILDER</p>
-            </div>
-            </div>
-            </div>
             
         <div className='container-fluid'> 
         <div className='row'>
@@ -64,20 +52,72 @@ export default function User_dash1()
                     </li>
                     <li>
                         <a href="#submenu3" data-bs-toggle="collapse" className="nav-link px-0 align-middle a ">
-                            <i className="fs-4 bi-grid"></i> <span className="ms-1 d-none d-sm-inline">LogOut</span> </a>       
+                            <i className="fs-4 bi-grid"></i> <span className="ms-1 d-none d-sm-inline ">LogOut</span> </a>   
+                   
                     </li>   
                 </ul>
                 <hr/>  
             </div>
     
             </div>
-            <div className='col-6'>
-            <p className="text-start pf">Please check you E-mail for E-mail Verification Link and click to verify email and access your form builder dashboard.</p>
-            <p className="text-start pf">If you haven’t receive verification email please click to </p>
-            <p className="text-start pf2">Re-send E-mail</p>
+            
+            <div className='col-6 rounded'>
+            <div className=" text-center div  mt-3 ">
+            <label for="exampleInputEmail1" className="form-label div   text-white">FORMNAME FORMFIELD</label>  
+               </div>
+               <form >
+               <div className="mb-3   text-white div2 ">
+    <label for="exampleInputEmail1" className="form-label">Field Tittle</label>
+    <input type="email" className="form-control " id="exampleInputEmail1" aria-describedby="emailHelp"/>
+    <div className="d-grid col-12 justify-content-end">
+  <button className="btn btn-secondary btn-rounded z-depth-1a text-white" type="button">Optional</button>
+</div>
+  <div>
+  <div className="form-check form-check-inline text-white ">
+  <input className="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1"/>
+  <label className="form-check-label" for="inlineRadio1">Short input Text</label>
+</div>
+<div className="form-check form-check-inline text-white  ">
+  <input className="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2"/>
+  <label className="form-check-label" for="inlineRadio2">CheckBox</label>
+</div>
+</div><div>
+<div className="form-check form-check-inline text-white ">
+  <input className="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1"/>
+  <label className="form-check-label" for="inlineRadio1">Radio Button</label>
+</div>
+<div className="form-check form-check-inline text-white ">
+  <input className="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2"/>
+  <label className="form-check-label" for="inlineRadio2">File upload</label>
+</div></div><div>
+<div className="form-check form-check-inline text-white ">
+  <input className="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1"/>
+  <label className="form-check-label" for="inlineRadio1">Date</label>
+</div>
+<div className="form-check form-check-inline text-white ">
+  <input className="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2"/>
+  <label className="form-check-label" for="inlineRadio2">Long Input Text</label>
+</div></div>
+<div className="form-check form-check-inline text-white ">
+  <input className="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1"/>
+  <label className="form-check-label" for="inlineRadio1">Drop Down Menu</label>
+</div>
+<div className="d-grid col-8 justify-content-end">
+  <button className="btn div" type="button">Add More Field</button>
+</div>
+<hr className=' border-5 border-top border-secondary' />
+<div className="d-grid  col-8 mx-auto ">
+  <button className="btn div mb-3" type="button">Save and continue</button>
+</div>
+</div>
+</form>
+<div className='row'>
+            <div className='col-2'></div>
+            </div>
+          </div>
             </div>
         </div> 
         </div>
-        </div>
+        
     )
 }

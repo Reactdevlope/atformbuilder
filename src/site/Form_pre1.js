@@ -2,7 +2,7 @@ import react from "react"
 import pic from '../pic/logo.png'
 import '../Css/first_login.css'
 
-export default function Create_form()
+export default function Form_pre1()
 {
     return(
     <div>
@@ -52,7 +52,8 @@ export default function Create_form()
                     </li>
                     <li>
                         <a href="#submenu3" data-bs-toggle="collapse" className="nav-link px-0 align-middle a ">
-                            <i className="fs-4 bi-grid"></i> <span className="ms-1 d-none d-sm-inline ">LogOut</span> </a>       
+                            <i className="fs-4 bi-grid"></i> <span className="ms-1 d-none d-sm-inline ">LogOut</span> </a>   
+                   
                     </li>   
                 </ul>
                 <hr/>  
@@ -62,28 +63,28 @@ export default function Create_form()
             
             <div className='col-6 rounded'>
             <div className=" text-center div  mt-3 ">
-            <label for="exampleInputEmail1" className="form-label div   text-white">CREATE FROM</label>  
+            <label for="exampleInputEmail1" className="form-label div   text-white"> FORM NAME FORM FIELDS</label>  
                </div>
                <form >
-               <div className="mb-3  text-white div2 ">
-    <label for="exampleInputEmail1" className="form-label justify-content-centre">Field Tittle</label>
+               <div className="mb-3   text-white div2 ">
+    <label for="exampleInputEmail1" className="form-label">Generates Link</label>
     <input type="email" className="form-control " id="exampleInputEmail1" aria-describedby="emailHelp"/>
-  
-  <div className="form-outline mb-4">
-  <label className="form-label" for="form4Example2">Field Description</label>
-    <textarea className="form-control" id="form4Example3" rows="4"></textarea>
+    <label for="exampleInputEmail1" className="form-label">Create Custome Link</label>
+    <input type="email" className="form-control " id="exampleInputEmail1" aria-describedby="emailHelp"/>
    
+  <div>
   </div>
 <hr className=' border-5 border-top border-secondary' />
 <div className="d-grid  col-8 mx-auto ">
-  <button className="btn div mb-3" type="button">Save and create forms</button>
+  <button className="btn div mb-3" type="button">SAVE LINK</button>
+  <button className="btn div mb-3" type="button">PUBLISH LINK</button>
+ 
 </div>
-</div> 
-        <div className='row'>
+</div>
+</form>
+<div className='row'>
             <div className='col-2'></div>
             </div>
-</form>
-
           </div>
             </div>
         </div> 
