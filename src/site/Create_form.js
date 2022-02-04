@@ -1,6 +1,7 @@
 import react from "react"
 import pic from '../pic/logo.png'
 import '../Css/first_login.css'
+import { Link } from "react-router-dom"
 
 export default function Create_form()
 {
@@ -20,7 +21,7 @@ export default function Create_form()
           <a className="nav-link active" aria-current="page" href="#">Welcome[user-name]</a>
         </li>
         <li className="nav-item pf">
-          <a className="nav-link active" aria-current="page" href="#">LogOut</a>
+          <a className="nav-link active" aria-current="page" href="/home">LogOut</a>
         </li>
       </ul>
     </div>
@@ -38,22 +39,16 @@ export default function Create_form()
             
                 <ul className="nav nav-pills flex-column mb-sm-auto mb-0 align-items-center align-items-sm-start" id="menu">
                     <li className="nav-item">
-                    <a href="#submenu1" data-bs-toggle="collapse" className="nav-link px-0 align-middle a">
-                            <i className="fs-4 bi-house"></i> <span className="ms-1 d-none d-sm-inline a">My Dashboard</span>
-                        </a>
+                    <a className="nav-link a" aria-current="page"  href="/userdash1">My Dashboard</a>
                     </li>
                     <li>
-                        <a href="#submenu1" data-bs-toggle="collapse" className="nav-link px-0 align-middle a">
-                            <i className="fs-4 bi-speedometer2"></i> <span className="ms-1 d-none d-sm-inline">save forms</span> </a>
+                    <a className="nav-link a" aria-current="page"  href="/createform">Save Forms </a>
                     </li>
                     <li>
-                        <a href="#submenu2" data-bs-toggle="collapse" className="nav-link px-0 align-middle a">
-                            <i className="fs-4 bi-bootstrap"></i> <span className="ms-1 d-none d-sm-inline">Create Forms</span></a> 
+                    <a className="nav-link a" aria-current="page"  href="/createform">Create Forms</a> 
                     </li>
-                    <li>
-                        <a href="#submenu3" data-bs-toggle="collapse" className="nav-link px-0 align-middle a ">
-                            <i className="fs-4 bi-grid"></i> <span className="ms-1 d-none d-sm-inline ">LogOut</span> </a>       
-                    </li>   
+                    <li><a className="nav-link a" aria-current="page"  href="/home">LogOut</a>
+                        </li>
                 </ul>
                 <hr/>  
             </div>
@@ -61,8 +56,8 @@ export default function Create_form()
             </div>
             
             <div className='col-6 rounded'>
-            <div className=" text-center div  mt-3 ">
-            <label for="exampleInputEmail1" className="form-label div   text-white">CREATE FROM</label>  
+            <div className=" text-center div  mt-3 "><Link to="/home">
+            <label for="exampleInputEmail1" className="form-label div   text-white">CREATE FROM</label>  </Link>
                </div>
                <form >
                <div className="mb-3  text-white div2 ">

@@ -1,6 +1,7 @@
 import react from "react"
 import pic from '../pic/logo.png'
 import '../Css/first_login.css'
+import { Link } from "react-router-dom"
 
 export default function Form_pre()
 {
@@ -43,12 +44,12 @@ export default function Form_pre()
                         </a>
                     </li>
                     <li>
-                        <a href="#submenu1" data-bs-toggle="collapse" className="nav-link px-0 align-middle a">
-                            <i className="fs-4 bi-speedometer2"></i> <span className="ms-1 d-none d-sm-inline">save forms</span> </a>
+                        <a href="#submenu1" data-bs-toggle="collapse" className="nav-link px-0 align-middle a"><Link to="/home">
+                            <i className="fs-4 bi-speedometer2"></i> <span className="ms-1 d-none d-sm-inline">save forms</span></Link> </a>
                     </li>
                     <li>
-                        <a href="#submenu2" data-bs-toggle="collapse" className="nav-link px-0 align-middle a">
-                            <i className="fs-4 bi-bootstrap"></i> <span className="ms-1 d-none d-sm-inline">Create Forms</span></a> 
+                        <a href="#submenu2" data-bs-toggle="collapse" className="nav-link px-0 align-middle a"><Link to="/home">
+                            <i className="fs-4 bi-bootstrap"></i> <span className="ms-1 d-none d-sm-inline">Create Forms</span> </Link></a> 
                     </li>
                     <li>
                         <a href="#submenu3" data-bs-toggle="collapse" className="nav-link px-0 align-middle a ">

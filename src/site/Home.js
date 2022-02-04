@@ -1,6 +1,7 @@
 import  react from 'react'
 import '../Css/home.css'
 import pic from '../pic/logo.png'
+import { Link } from 'react-router-dom';
 export default function Home()
 {
     return(
@@ -38,8 +39,8 @@ export default function Home()
     <input type="password" className="form-control" id="exampleInputPassword1"/>
   </div>
   
-  <div className="d-grid gap-2 col-6 mx-auto mt-5 mb-3 div2">
-  <button className="btn div" type="button">Signin or Signup</button>
+  <div className="d-grid gap-2 col-6 mx-auto mt-5 mb-3 "><Link to="/firstlogin">
+  <button className="btn div" type="button">Signin or Signup</button></Link>
   
 </div>
  
